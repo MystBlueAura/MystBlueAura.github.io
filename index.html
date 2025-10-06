@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>김호숙 홈페이지</title>
+  <meta name="description" content="컴퓨터 과학 강의자료와 자료구조 프로젝트, 로봇 연구회, 그림 갤러리, 도서 기록을 담은 홈페이지">
+  <meta name="author" content="김호숙">
+  <meta property="og:title" content="김호숙 홈페이지">
+  <meta property="og:description" content="파이썬 기초, 자료구조 강의자료와 프로젝트, 로봇 연구회, 그림, 도서">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#intro" class="brand" aria-label="김호숙 홈페이지 홈">KHS</a>
+      <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="siteNav" aria-label="메뉴 열기">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <nav id="siteNav" class="site-nav" aria-label="주요 메뉴">
+        <ul>
+          <li><a href="#intro">소개</a></li>
+          <li><a href="#lectures">강의자료</a></li>
+          <li><a href="#projects">자료구조 프로젝트</a></li>
+          <li><a href="#robots">로봇 연구회</a></li>
+          <li><a href="#gallery">그림 갤러리</a></li>
+          <li><a href="#books">도서</a></li>
+          <li><a href="#contact">연락</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="intro" class="section hero">
+      <div class="container">
+        <h1>안녕하세요, 김호숙 입니다.</h1>
+        <p class="lead">컴퓨터 과학을 가르치며 파이썬 기초와 자료구조 강의를 진행합니다. 이 홈페이지에는 강의자료와 학생 프로젝트, 그리고 제가 관심 있는 로봇 연구회, 그림, 도서 기록이 담겨 있습니다.</p>
+        <figure class="profile-wrap">
+          <img src="./내사진1.jpeg" alt="김호숙 프로필 사진" class="profile-img" loading="lazy">
+        </figure>
+      </div>
+    </section>
+
+    <section id="lectures" class="section">
+      <div class="container">
+        <h2>강의자료</h2>
+        <p>과목별 강의자료는 <strong>lecture</strong>, <strong>problem</strong>, <strong>template</strong>로 구성되어 있습니다.</p>
+
+        <div class="course">
+          <h3>파이썬 기초</h3>
+          <div class="cards">
+            <article class="card">
+              <h4>Lecture</h4>
+              <ul>
+                <li><a href="#" aria-disabled="true">파이썬 개요 (준비중)</a></li>
+                <li><a href="#" aria-disabled="true">데이터 타입 (준비중)</a></li>
+                <li><a href="#" aria-disabled="true">제어문/함수 (준비중)</a></li>
+              </ul>
+            </article>
+            <article class="card">
+              <h4>Problem</h4>
+              <ul>
+                <li><a href="#" aria-disabled="true">기초 문제 세트 1 (준비중)</a></li>
+                <li><a href="#" aria-disabled="true">기초 문제 세트 2 (준비중)</a></li>
+              </ul>
+            </article>
+            <article class="card">
+              <h4>Template</h4>
+              <ul>
+                <li><a href="#" aria-disabled="true">코딩 템플릿 (준비중)</a></li>
+              </ul>
+            </article>
+          </div>
+        </div>
+
+        <div class="course">
+          <h3>자료구조</h3>
+          <div class="cards">
+            <article class="card">
+              <h4>Lecture</h4>
+              <ul>
+                <li><a href="#" aria-disabled="true">리스트/스택/큐 (준비중)</a></li>
+                <li><a href="#" aria-disabled="true">트리/그래프 (준비중)</a></li>
+              </ul>
+            </article>
+            <article class="card">
+              <h4>Problem</h4>
+              <ul>
+                <li><a href="#" aria-disabled="true">연습 문제 모음 (준비중)</a></li>
+              </ul>
+            </article>
+            <article class="card">
+              <h4>Template</h4>
+              <ul>
+                <li><a href="#" aria-disabled="true">과제 템플릿 (준비중)</a></li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section alt">
+      <div class="container">
+        <h2>자료구조 프로젝트</h2>
+        <p>매년 개발되는 학생들의 프로젝트를 년도별로 모아둔 페이지입니다. 팀별로 프로젝트 개발서, 결과물 PPT, 동영상 링크가 연결됩니다.</p>
+
+        <details class="year" open>
+          <summary>2025년</summary>
+          <ul class="project-list">
+            <li>
+              <span class="team">팀 A</span>
+              <a href="#" aria-disabled="true">개발서(준비중)</a>
+              <a href="#" aria-disabled="true">PPT(준비중)</a>
+              <a href="#" aria-disabled="true">영상(준비중)</a>
+            </li>
+            <li>
+              <span class="team">팀 B</span>
+              <a href="#" aria-disabled="true">개발서(준비중)</a>
+              <a href="#" aria-disabled="true">PPT(준비중)</a>
+              <a href="#" aria-disabled="true">영상(준비중)</a>
+            </li>
+          </ul>
+        </details>
+
+        <details class="year">
+          <summary>2024년</summary>
+          <ul class="project-list">
+            <li>
+              <span class="team">팀 C</span>
+              <a href="#" aria-disabled="true">개발서(준비중)</a>
+              <a href="#" aria-disabled="true">PPT(준비중)</a>
+              <a href="#" aria-disabled="true">영상(준비중)</a>
+            </li>
+          </ul>
+        </details>
+      </div>
+    </section>
+
+    <section id="robots" class="section">
+      <div class="container">
+        <h2>로봇 연구회</h2>
+        <p>년도별 로봇 사진, 연구회원 자료, 엔지니어링 노트를 보관합니다.</p>
+        <div class="cards">
+          <article class="card">
+            <h4>2025</h4>
+            <ul>
+              <li><a href="#" aria-disabled="true">로봇 사진 (준비중)</a></li>
+              <li><a href="#" aria-disabled="true">연구회원 자료 (준비중)</a></li>
+              <li><a href="#" aria-disabled="true">엔지니어링 노트 (준비중)</a></li>
+            </ul>
+          </article>
+          <article class="card">
+            <h4>2024</h4>
+            <ul>
+              <li><a href="#" aria-disabled="true">로봇 사진 (준비중)</a></li>
+              <li><a href="#" aria-disabled="true">연구회원 자료 (준비중)</a></li>
+              <li><a href="#" aria-disabled="true">엔지니어링 노트 (준비중)</a></li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section alt">
+      <div class="container">
+        <h2>그림 갤러리</h2>
+        <p>지금까지 그린 그림들을 갤러리 형태로 전시합니다.</p>
+        <div class="gallery-grid" aria-live="polite">
+          <div class="ph placeholder" aria-label="이미지 자리 - 준비중"></div>
+          <div class="ph placeholder" aria-label="이미지 자리 - 준비중"></div>
+          <div class="ph placeholder" aria-label="이미지 자리 - 준비중"></div>
+          <div class="ph placeholder" aria-label="이미지 자리 - 준비중"></div>
+          <div class="ph placeholder" aria-label="이미지 자리 - 준비중"></div>
+          <div class="ph placeholder" aria-label="이미지 자리 - 준비중"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="books" class="section">
+      <div class="container">
+        <h2>도서</h2>
+        <p>지금까지 읽은 책의 표지와 간단한 평가를 기록합니다.</p>
+        <div class="book-grid">
+          <article class="book ph">
+            <div class="cover placeholder" aria-label="표지 자리 - 준비중"></div>
+            <div class="meta">
+              <h4>도서명 (준비중)</h4>
+              <p class="rating" aria-label="평가">평가: 준비중</p>
+            </div>
+          </article>
+          <article class="book ph">
+            <div class="cover placeholder" aria-label="표지 자리 - 준비중"></div>
+            <div class="meta">
+              <h4>도서명 (준비중)</h4>
+              <p class="rating" aria-label="평가">평가: 준비중</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container">
+        <h2>연락</h2>
+        <p>문의나 자료 요청은 아래 이메일로 연락 주세요.</p>
+        <p><a href="mailto:example@example.com">example@example.com</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> 김호숙. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
+
+
